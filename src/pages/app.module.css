@@ -1,0 +1,21 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.headerContainer > a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #000;
+  margin-left: 20px;
+}
+
+.headerContainer > a:hover {
+  text-decoration: underline;
+}
+
+.headerContainer > a:first-child {
+  margin-right: 20px;
+}
