@@ -5,11 +5,11 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Oswald`,
+            family: `Roboto`,
             subsets: [`latin`]
           },
           {
-            family: `Open Sans`,
+            family: `Roboto Mono`,
             variants: [`400`, `700`]
           }
         ]
