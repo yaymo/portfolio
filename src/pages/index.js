@@ -10,7 +10,13 @@ export default () => (
       <a href="#about-me">About Me</a>
     </header>
     <main>
-      <section id="about-me" />
+      <section id="about-me" className={styles.aboutMe}>
+        <img src="" alt="headshot-placeholder" />
+        <div>
+          Hi, I'm Jameson Hill. I am a software engineer with experience
+          building dynamic web applications.
+        </div>
+      </section>
       <section id="projects" />
       <section id="github" />
       <section id="contact" />
